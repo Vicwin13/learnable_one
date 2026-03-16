@@ -1,22 +1,27 @@
 # learnable_one
-backend git task on learnable
+Backend git task on learnable
+
 
 ### Explain version control.
 Version control is a workspace that is used to track changes made to a document over time, it shows who made the change and when. It can be used to store or keep track of multiple version of a document/product if possible.
 
+
 ### Explain difference between git and github
 The major difference is that git, using git syntax is used to manage documents remotely, so it's a version control tool for local files where github is web-based and allows people to collaborate
+
 
 ### List 3 other github alternatives
 - GitLab
 - Bitbucket
 - Codeberg
 
+
 ### Explain the difference between git fetch and git pull,
 Git fetch and git pull are both Git commands used to retrieve update information from a remote repository.
 The thing is that:
 - Git fetch downloads the changes from the remote repository to the local repository but does not make any changes to the current working directory.  Since the changes are not merged into the local branch, you can check the changes from the remote repository without interrupting your current work.
 -  Git pull retrieves the latest changes from the remote repository like git fetch, but it also automatically merges those changes into the current branch. In contrast to git fetch, git pull directly applies the changes from the remote repository to the local working directory.
+
 
 
 ### Explain in simple terms git rebase and the command for it
@@ -39,6 +44,7 @@ The command for rebasing:
  ```
 git rebase origin/main
  ```
+
 
 
 ### Explain in simple terms git cherry-pick and the command for it 
