@@ -30,17 +30,17 @@ Git rebase is a command used to integrate changes from one Git branch into anoth
 
 The command for rebasing: 
 
-- Fetch from the origin
- ```
- git fetch origin 
- ```
+>  Fetch from the origin
+> ```
+> git fetch origin 
+> ```
 
-- Move to the branch you want to rebase from the origin
+Move to the branch you want to rebase from the origin
  ```
  git checkout feature 
  ```
 
-- Run the rebase command
+Run the rebase command
  ```
 git rebase origin/main
  ```
@@ -51,17 +51,17 @@ git rebase origin/main
 Git cherry-pick is used to copy specific changes from an existing branch into your current branch, the command allows you to take a specific commit from one branch and apply it onto another branch, so it allows you to take specific code from a commit that is useful instead of merging an entire branch that is possibly problematic to the project.
 
 the command:
-- First you get the log and it shows you the list commit hashes and your target hash
+First you get the log and it shows you the list commit hashes and your target hash
  ```
  git log 
  ```
 
-- Switch to your target branch you want to apply the commit that you want to cherry-pick
+Switch to your target branch you want to apply the commit that you want to cherry-pick
  ```
  git checkout main
  ```
 
-- Apply the commit 
+Apply the commit 
  ```
  git cherry-pick <your chosen commit hash>
  ```
